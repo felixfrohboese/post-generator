@@ -3,6 +3,30 @@ from openai import OpenAI
 import docx
 import PyPDF2
 import io
+import os
+
+def load_specifications():
+    """Load all specification and example files from platform_specs folder."""
+    specs = {}
+    files = {
+        'linkedin_structure': 'platform_specs/linkedin_structure_specs.txt',
+        'x_structure': 'platform_specs/x_structure_specs.txt',
+        'linkedin_examples': 'platform_specs/linkedin_examples.txt',
+        'x_examples': 'platform_specs/x_examples.txt'
+    }
+    
+    for key, filename in files.items():
+        try:
+            with open(filename, 'r', encoding='utf-8') as file:
+                specs[key] = file.read().strip()
+        except FileNotFoundError:
+            st.warning(f"Warning: {filename} not found. Some features may be limited.")
+            specs[key] = ""
+    
+    return specs
+
+# Load specifications at startup
+SPECIFICATIONS = load_specifications()
 
 # Initialize session state
 if "generated_post" not in st.session_state:
@@ -107,8 +131,19 @@ if st.button("Generate Post"):
         st.error("Please provide a valid API key!")
     else:
         with st.spinner("Generating your post..."):
+            # Get platform-specific specifications and examples
+            structure_specs = SPECIFICATIONS[f'{platform.lower()}_structure']
+            examples = SPECIFICATIONS[f'{platform.lower()}_examples']
+            
             prompt = f"""
-            Create a {platform} post based on the following text. 
+            Create a {platform} post based on the following text.
+            
+            Platform-specific structure requirements:
+            {structure_specs}
+            
+            Reference examples for this platform:
+            {examples}
+            
             Style: {style}
             Tone: {tone}
             Maximum length: {max_length} characters
@@ -120,9 +155,10 @@ if st.button("Generate Post"):
             1. Keep the post within {max_length} characters
             2. Use a {tone.lower()} tone of voice
             3. Make it {style.lower()} in style
-            4. Format it appropriately for {platform}
+            4. Format it appropriately for {platform} following the structure requirements above
             5. Include relevant hashtags if it's for LinkedIn
             6. For X, make it concise and impactful
+            7. Use the reference examples as inspiration for structure and style
             """
 
             try:

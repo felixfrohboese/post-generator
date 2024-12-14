@@ -1,0 +1,21 @@
+Example 1: 
+
+Google announces 6th-gen Trillium TPU AI accelerator
+- Updates: 4x training performance, 3x inference throughput, +67% energy efficiency
+- Price/performance: 4.7x peak compute, 2.5x training performance per $
+- Scaling: 100K chips with 13 Pb/s bandwidth, 99% scaling efficiency 
+
+Example 2: 
+
+Google's Launch of Gemini 2.0 Flash - Overview
+- Performance of Gemini 1.5 Pro Model beaten at 2x the speed - Multimodal upgrades such as native image generation & voice output
+- Built-in tool use for Google Search, coding and 3rd party functions
+- Standard 128k context window 
+
+Example 3: 
+
+Replit's "Assistant" Launch in a Nutshell
+- Assistant for project fixes and streamlined editing
+- Design upgrades: add images/URLs; Agents use React
+- Integrated tools: database access, seamless deploy, and more
+- Subscription model for unlimited use with transparent billing 
