@@ -108,6 +108,11 @@ with col1:
         ["Factual", "Creative"],
         help="Choose the writing style for your post"
     )
+    emoji_usage = st.selectbox(
+        "Emoji Usage",
+        ["None", "Few", "Many"],
+        help="Select how many emojis should be used in the post"
+    )
 
 with col2:
     tone = st.selectbox(
@@ -147,6 +152,7 @@ if st.button("Generate Post"):
             Style: {style}
             Tone: {tone}
             Maximum length: {max_length} characters
+            Emoji usage: {emoji_usage}
 
             Original text:
             {text_content}
@@ -159,6 +165,10 @@ if st.button("Generate Post"):
             5. Include relevant hashtags if it's for LinkedIn
             6. For X, make it concise and impactful
             7. Use the reference examples as inspiration for structure and style
+            8. For emoji usage:
+               - If "None": Don't use any emojis
+               - If "Few": Use 1-3 relevant emojis strategically placed
+               - If "Many": Use 4-8 relevant emojis throughout the post
             """
 
             try:
