@@ -58,7 +58,7 @@ if api_key:
 # Model selection
 model = st.selectbox(
     "Select AI Model",
-    ["gpt-4o-mini", "gpt-4o"],
+    ["gpt-4o-mini", "gpt-4o", "o1-mini", "o1-preview"],
     help="Choose the AI model to generate your post"
 )
 
@@ -103,22 +103,17 @@ with col1:
         ["LinkedIn", "X"],
         help="Select the platform for your post"
     )
-    style = st.selectbox(
-        "Style",
-        ["Factual", "Creative"],
-        help="Choose the writing style for your post"
+    tone = st.selectbox(
+        "Tone",
+        ["Professional (factual)", "Casual (creative)"],
+        help="Select the tone and style for your post"
     )
+
+with col2:
     emoji_usage = st.selectbox(
         "Emoji Usage",
         ["None", "Few", "Many"],
         help="Select how many emojis should be used in the post"
-    )
-
-with col2:
-    tone = st.selectbox(
-        "Tone",
-        ["Professional", "Casual"],
-        help="Select the tone of voice for your post"
     )
     max_length = st.number_input(
         "Maximum Length",
@@ -149,8 +144,7 @@ if st.button("Generate Post"):
             Reference examples for this platform:
             {examples}
             
-            Style: {style}
-            Tone: {tone}
+            Tone and Style: {tone}
             Maximum length: {max_length} characters
             Emoji usage: {emoji_usage}
 
@@ -159,13 +153,12 @@ if st.button("Generate Post"):
 
             Rules:
             1. Keep the post within {max_length} characters
-            2. Use a {tone.lower()} tone of voice
-            3. Make it {style.lower()} in style
-            4. Format it appropriately for {platform} following the structure requirements above
-            5. Include relevant hashtags if it's for LinkedIn
-            6. For X, make it concise and impactful
-            7. Use the reference examples as inspiration for structure and style
-            8. For emoji usage:
+            2. Use the specified tone and style:
+               - For "Professional (factual)": Keep it formal and fact-based
+               - For "Casual (creative)": Be more conversational and creative
+            3. Format it appropriately for {platform} following the structure requirements above
+            4. Use the reference examples as inspiration for structure and style
+            5. For emoji usage:
                - If "None": Don't use any emojis
                - If "Few": Use 1-3 relevant emojis strategically placed
                - If "Many": Use 4-8 relevant emojis throughout the post
@@ -175,7 +168,7 @@ if st.button("Generate Post"):
                 response = client.chat.completions.create(
                     model=model,
                     messages=[{"role": "user", "content": prompt}],
-                    temperature=0.7,
+                    #temperature=0.7 # commented out since o1 models cannot be adjusted with temperature
                 )
                 st.session_state.generated_post = response.choices[0].message.content
             except Exception as e:

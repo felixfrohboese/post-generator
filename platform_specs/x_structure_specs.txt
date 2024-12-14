@@ -2,3 +2,5 @@
 2. Use concise language and bullet points (this is where the value is delivered)
 3. Optionally, end with a clear call-to-action if space permits
 4. Use abbreviations when necessary to save space
+5. Make it concise and impactful
+6. Use relevant hashtags if possible
