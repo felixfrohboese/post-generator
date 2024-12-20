@@ -1,14 +1,50 @@
 Example 1:
-🚀 Exciting news! We've just launched our new AI-powered solution.
+𝗧𝗵𝗲 𝗘𝗻𝗱 𝗼𝗳 𝘁𝗵𝗲 𝗥𝗮𝗰𝗲 𝗳𝗼𝗿 𝗟𝗮𝗿𝗴𝗲𝗿 𝗙𝗿𝗼𝗻𝘁𝗶𝗲𝗿 𝗔𝗜 𝗠𝗼𝗱𝗲𝗹𝘀❓
 
-Here's what makes it special:
-• 50% faster processing time
-• Advanced security features
-• Seamless integration
+𝗜𝗻𝘁𝗲𝗿𝗲𝘀𝘁𝗶𝗻𝗴 𝘁𝗮𝗸𝗲 𝗯𝘆 𝗜𝗹𝘆𝗮 𝗦𝘂𝘁𝘀𝗸𝗲𝘃𝗲𝗿 𝗼𝗻 𝗦𝗰𝗮𝗹𝗶𝗻𝗴 𝗟𝗮𝘄𝘀 𝗶𝗻 𝗟𝗟𝗠 𝗣𝗿𝗲-𝗧𝗿𝗮𝗶𝗻𝗶𝗻𝗴 🤔: 
 
-Want to learn more? Check out our latest case study!
+In his talk at NeurIPS Conference, OpenAI's former Chief Scientist shared an interesting perspective. It challenges the 2020 Scaling Laws paper, which has set the direction for LLM pre-training over the last years.
 
-#ArtificialIntelligence #Innovation #TechNews
+𝗥𝗲𝗰𝗮𝗽 𝗼𝗻 𝘁𝗵𝗲 𝗦𝗰𝗮𝗹𝗶𝗻𝗴 𝗟𝗮𝘄𝘀 𝗣𝗮𝗽𝗲𝗿:
+• 📈 𝗣𝗿𝗲𝗱𝗶𝗰𝘁𝗮𝗯𝗹𝗲 𝗜𝗺𝗽𝗿𝗼𝘃𝗲𝗺𝗲𝗻𝘁𝘀: As model size (=number of parameters), data (=used for pre-training), and compute (=performance of GPU clusters) grow, LLM performance improves in smooth, predictable patterns.
+• 🎯 𝗞𝗲𝘆 𝗙𝗶𝗻𝗱𝗶𝗻𝗴: Larger models trained on larger datasets and clusters show systematic, steady gains—a clear roadmap.
+
+𝗡𝗼𝘄, 𝗦𝘂𝘁𝘀𝗸𝗲𝘃𝗲𝗿’𝘀 𝗣𝗲𝗿𝘀𝗽𝗲𝗰𝘁𝗶𝘃𝗲:
+⏳ 𝗗𝗮𝘁𝗮 𝗕𝗼𝘁𝘁𝗹𝗲𝗻𝗲𝗰𝗸: Simply adding more internet-like text will soon hit a wall; available data won’t keep up with LLM pre-training demands.
+🚀 𝗡𝗲𝘅𝘁 𝗦𝘁𝗲𝗽𝘀: Beyond scaling up, the future involves new approaches:
+• 𝗦𝘆𝗻𝘁𝗵𝗲𝘁𝗶𝗰 𝗗𝗮𝘁𝗮: Curating/creating richer, high-quality datasets in-house.
+• 𝗔𝗴𝗲𝗻𝘁𝘀: Systems that actively reason and explore, not just passively consume data.
+• 𝗗𝘆𝗻𝗮𝗺𝗶𝗰 𝗔𝗱𝗮𝗽𝘁𝗮𝘁𝗶𝗼𝗻: LLMs that refine themselves continuously, learning from smaller but more relevant data streams.
+
+𝗖𝗼𝗻𝗰𝗹𝘂𝘀𝗶𝗼𝗻:
+• Scaling laws made progress straightforward—larger models trained on more data and better clusters were simply better. 
+• Due to the challenging data situation, we might enter an era, where new techniques will need to drive the next wave of AI improvements.
+
+#AI #ScalingLaws #LLM #OpenAI #Sutskever
 
 Example 2:
-[Additional example...]
+𝗪𝗵𝗮𝘁 𝗮 𝗬𝗲𝗮𝗿 𝟮𝟬𝟮𝟰 𝗳𝗼𝗿 𝗔𝗜 🤖 ... 𝗥𝗲𝗮𝗱𝘆 𝗳𝗼𝗿 𝗮 𝗥𝗲𝗰𝗮𝗽❓
+
+𝗛𝗲𝗿𝗲 𝗮𝗿𝗲 𝘁𝗵𝗲 𝗧𝗼𝗽 𝟭𝟱 𝗛𝗲𝗮𝗱𝗹𝗶𝗻𝗲𝘀 𝗳𝗿𝗼𝗺 𝗔𝗿𝘁𝗶𝗳𝗶𝗰𝗶𝗮𝗹𝗔𝗻𝗮𝗹𝘆𝘀𝗶𝘀.𝗮𝗶’𝘀 𝟮𝟬𝟮𝟰 𝗥𝗲𝘃𝗶𝗲𝘄 ✨:
+
+𝟭/ 𝗕𝗮𝘁𝘁𝗹𝗲 𝗼𝗳 𝘁𝗵𝗲 𝗙𝗿𝗼𝗻𝘁𝗶𝗲𝗿 𝗠𝗼𝗱𝗲𝗹𝘀: Multiple AI labs caught up to GPT-4’s intelligence in 2024 and some models surpassed it.
+𝟮/ 𝗨𝗦 𝗶𝗻 𝘁𝗵𝗲 𝗟𝗲𝗮𝗱: The USA leads the AI frontier; China in second place, with few others also at the cutting edge.
+𝟯/ 𝗢𝗽𝗲𝗻-𝗦𝗼𝘂𝗿𝗰𝗲 𝗖𝗮𝘁𝗰𝗵-𝘂𝗽: Open-source models from Meta, Mistral, and Alibaba significantly narrowed the gap to proprietary models.
+𝟰/ 𝗜𝗻𝗳𝗲𝗿𝗲𝗻𝗰𝗲 𝗣𝗿𝗶𝗰𝗲 𝗗𝗿𝗼𝗽: Inference costs plunged in 2024, as GPT-4o mini came close to GPT-4’s intelligence at 1% the price.
+𝟱/ 𝗦𝗺𝗮𝗹𝗹 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲 𝗠𝗼𝗱𝗲𝗹𝘀 (𝗦𝗟𝗠𝘀) 𝗼𝗻 𝘁𝗵𝗲 𝗥𝗶𝘀𝗲: Smaller models now match large-model intelligence, driving down costs and increasing speed.
+
+𝟲/ 𝗟𝗮𝗿𝗴𝗲𝗿 𝗖𝗼𝗻𝘁𝗲𝘅𝘁 𝗪𝗶𝗻𝗱𝗼𝘄𝘀: Context windows expanded to 128k tokens as a new standard, enabling richer long-form reasoning.
+𝟳/ 𝗩𝗲𝗿𝘁𝗶𝗰𝗮𝗹 𝗜𝗻𝘁𝗲𝗴𝗿𝗮𝘁𝗶𝗼𝗻: Vertical integration varies across AI players; cloud providers like AWS stand out with offerings across the stack.
+𝟴/ 𝗙𝗿𝗼𝗻𝘁𝗶𝗲𝗿 𝗟𝗮𝗯𝘀 𝗖𝗮𝗽𝘁𝘂𝗿𝗲 𝗗𝗲𝗺𝗮𝗻𝗱: Demand focuses on top AI labs as reasoning quality and price guide model selection.
+𝟵/ 𝗨𝘀𝗲 𝗖𝗮𝘀𝗲𝘀 𝗮𝗿𝗲 𝗗𝗶𝘃𝗲𝗿𝘀𝗲: Companies apply LLMs in many different ways with multimodal capabilities on most roadmaps.
+𝟭𝟬/ 𝗠𝘂𝗹𝘁𝗶-𝗠𝗼𝗱𝗲𝗹 𝗔𝗽𝗽𝗿𝗼𝗮𝗰𝗵: Most users run multiple models, with about 75% using hosted serverless endpoints, such as AWS Bedrock.
+
+𝟭𝟭/ 𝗜𝗺𝗮𝗴𝗲 𝗤𝘂𝗮𝗹𝗶𝘁𝘆 𝗜𝗺𝗽𝗿𝗼𝘃𝗲𝗺𝗲𝗻𝘁𝘀: Image generation quality soared in 2024, improving photorealism and prompt adherence.
+𝟭𝟮/ 𝗕𝗮𝘁𝘁𝗹𝗲 𝗶𝗻 𝘁𝗵𝗲 𝗜𝗺𝗮𝗴𝗲 𝗔𝗿𝗲𝗻𝗮: Intense competition emerged between image models; top 5 players all launched post-Q3 2024.
+𝟭𝟯/ 𝗦𝗼𝗿𝗮 𝗟𝗮𝘁𝗲 𝘁𝗼 𝘁𝗵𝗲 𝗣𝗮𝗿𝘁𝘆: OpenAI’s Sora went from no competition during its preview in Feb. to a crowded market at launch in Dec.
+𝟭𝟰/ 𝗧𝗲𝘅𝘁-𝘁𝗼-𝗦𝗽𝗲𝗲𝗰𝗵 𝗜𝗺𝗽𝗿𝗼𝘃𝗲𝗺𝗲𝗻𝘁𝘀: Transformer-based Text-to-Speech leaped ahead in quality, outpacing established leaders.
+𝟭𝟱/ 𝗢𝗽𝗲𝗻-𝗦𝗼𝘂𝗿𝗰𝗲 𝗚𝗮𝗶𝗻𝘀 𝗶𝗻 𝗧𝗿𝗮𝗻𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻: OpenAI’s Whisper sparked competition in AI transcription, enabling new speed and price battles.
+
+Note: The attached report includes one detailed slide per headline. 
+
+#AI #ArtificialAnalysis #2024 #Recap

@@ -33,10 +33,10 @@ if "generated_post" not in st.session_state:
     st.session_state.generated_post = ""
 
 # Page title and description
-st.title("Social Media Post Generator")
+st.title("Post Generator")
 st.markdown("""
-Generate professional social media posts using AI. Simply provide your text or upload files,
-customize your preferences, and get a perfectly crafted post for your chosen platform.
+Generate professional posts using AI. 
+Simply provide your text or upload files, customize your preferences, and get a perfectly crafted post for your chosen platform.
 """)
 
 # API Key input and validation
